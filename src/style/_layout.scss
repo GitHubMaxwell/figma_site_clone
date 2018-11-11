@@ -1,7 +1,3 @@
-// this file should be refactored to _layout.scss and reorged in better folder/file architecture
-
-// order of these from top to bottom is largest to smallest. 2 columns was overriding single column for small. also best to have this way for mobile first loading so that the phone doesnt load all the media queries before getting to the mobile
-
 // Widescreens
 @include mediaXl {
   .projects {
