@@ -1,8 +1,8 @@
 {
-  "name": "react_seed",
+  "name": "figma_site_clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://githubmaxwell.github.io",
+  "homepage": "https://githubmaxwell.github.io/figma_site_clone",
   "scripts": {
     "start": "webpack-dev-server --open --port 3333 --mode development",
     "dev": "webpack --mode development",

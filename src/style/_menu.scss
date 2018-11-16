@@ -1,102 +1,44 @@
-// Menu Button
-.menu-btn-container {
-  float: right;
+.menu-logo {
+  float: left;
   position: relative;
-  right: 35px;
-  top: 35px;
-  z-index: 2;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: black;
-  &.close {
-    background: none;
+  top: 20px;
+  left: 25px;
+  img {
+    width: 40px;
   }
 }
-.menu-btn {
-  position: absolute;
-  z-index: 3;
-  right: 11px;
-  top: 16px;
-  cursor: pointer;
-  @include easeOut;
-
-  .btn-line {
-    width: 28px;
-    height: 3px;
-    margin: 0 0 5px 0;
-    background: set-text-color($primary-color);
-    @include easeOut;
-  }
-  // Transform hamburger icon into "X"
-  &.close {
-    transform: rotate(180deg);
-    .btn-line {
-      // Line 1 - Rotate
-      &:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-        background: set-text-color(white);
-      }
-      // Line 2 - Hide
-      &:nth-child(2) {
-        opacity: 0;
-      }
-      // Line 3 - Rotate
-      &:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -6px);
-        background: set-text-color(white);
-      }
-    }
-  }
-}
-
-// Menu overlay
-.menu {
-  position: fixed;
-  top: 0;
-  // right: 0;
-  width: 100%;
-  visibility: hidden;
-  &.show {
-    visibility: visible;
-    // dark overlay is made visible
-  }
-  &-nav {
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  height: 5.5rem;
+  .menu-right-container {
     display: flex;
-    flex-flow: column wrap;
-    float: right;
-    // have to float none at small media query?
-    width: 150px;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    padding-top: 90px;
-    background: white;
-    list-style: none;
-    transform: translate3d(100vw, 0, 0);
-    @include easeOut;
-    &.show {
-      transform: translate3d(0, 0, 0);
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        padding: 10px;
+        padding-right: 48px;
+      }
     }
-  }
-  .menu-nav-items {
-    display: inline-block;
-    position: relative;
-    font-size: 15px;
-    padding: 0.8rem 35px;
-    font-weight: 500;
-    color: set-text-color(white);
-    text-decoration: none;
-    @include easeOut;
-    &:hover {
-      background: lightgrey;
+    .signup {
+      cursor: pointer;
+      background: $cta-main;
+      width: 80px;
+      height: 34px;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+      transition: 200ms;
+      &:hover {
+        background: $cta-hover;
+      }
     }
   }
 }
-
-// sass for loop to delay each nav item slide in by 0.1 seconds
-// @for $x from 1 through 4 {
-//   .menu-nav-items:nth-child(#{$x}) {
-//     transition-delay: $x * 0.1s;
-//   }
-// }
+// have a sign up button hidden above 100% and have it transition into the window after scroll for like 100vh?

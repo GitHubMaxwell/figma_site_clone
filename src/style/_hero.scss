@@ -1,0 +1,33 @@
+.hero-container {
+  padding: 48px 130px 48px 48px;
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  button {
+    background: $cta-main;
+    border: none;
+    height: 45px;
+    width: 150px;
+    color: $text-color;
+    border-radius: 5px;
+    margin: 0 0 42px 0;
+    font-size: 1em;
+    &:hover {
+      background: $cta-hover;
+    }
+  }
+  .hero-subtitle {
+    margin: 56px 0;
+  }
+
+  img {
+    position: absolute;
+    left: 600px;
+    bottom: 65px;
+    border: 2px solid gray;
+    border-bottom: none;
+    border-radius: 20px;
+    padding: 40px;
+    padding-bottom: none;
+  }
+}

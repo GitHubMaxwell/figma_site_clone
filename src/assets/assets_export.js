@@ -1,5 +1,7 @@
 import background from "./background.jpg";
+import figma_logo from "./figma_logo.png";
 
 export default {
-  background: background
+  background,
+  figma_logo
 };
