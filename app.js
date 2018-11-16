@@ -187,6 +187,17 @@ module.exports = __webpack_require__.p + "src/assets/power_of_mobile-4f321d87.gi
 
 /***/ }),
 
+/***/ "./src/assets/robin-rendle.png":
+/*!*************************************!*\
+  !*** ./src/assets/robin-rendle.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "src/assets/robin-rendle-22eb61f0.png";
+
+/***/ }),
+
 /***/ "./src/components/App.js":
 /*!*******************************!*\
   !*** ./src/components/App.js ***!
@@ -548,6 +559,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_central_design_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_central_design_png__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _assets_down_arrow_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/down_arrow.png */ "./src/assets/down_arrow.png");
 /* harmony import */ var _assets_down_arrow_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_down_arrow_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_robin_rendle_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/robin-rendle.png */ "./src/assets/robin-rendle.png");
+/* harmony import */ var _assets_robin_rendle_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_robin_rendle_png__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -591,7 +605,7 @@ class Purple extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "purple-container"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "sign_up"
@@ -608,9 +622,16 @@ class Purple extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       alt: "picture"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "text-container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Everything In One Place"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Figma is the first interface design tool based in the browser, making it easier for teams to create software."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Never upload, download, or worry about versions again"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Present and prototype in the same tool where you design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "One single source of truth for design files")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In the past versioning and maintaining assets was a huge headache. With Figma, we can spend more time on users\u2019 problems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "text-container-intro"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Everything in one place"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Figma is the first interface design tool based in the browser, making it easier for teams to create software.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Never upload, download, or worry about versions again"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Present and prototype in the same tool where you design"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "One single source of truth for design files")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "author_section"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "In the past versioning and maintaining assets was a huge headache. With Figma, we can spend more time on users\u2019 problems."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "author"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Robin Rendle, Gusto"))))));
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _assets_robin_rendle_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+      alt: "whatevz"
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Robin Rendle, Gusto"))))));
   }
 
 }
