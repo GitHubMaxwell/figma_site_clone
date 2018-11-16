@@ -1,29 +1,29 @@
-import React, { Component, Fragment } from "react";
-import { HashRouter, Route } from "react-router-dom";
+import React, { Fragment } from "react";
+import { HashRouter } from "react-router-dom";
 import Menu from "./Menu.js";
-// import Footer from "./Footer.js";
+import Footer from "./Footer.js";
 import Hero from "./Hero.js";
 import Purple from "./Purple.js";
-// maybe the code splitting in index.js messing up routes?
+import Black from "./Black.js";
+import Gray from "./Gray.js";
+import PurpleTwo from "./PurpleTwo.js";
+import Partners from "./Partners.js";
+import Clients from "./Clients.js";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      current: "????"
-    };
-  }
-  render() {
-    return (
-      <HashRouter>
-        <Fragment>
-          <Menu />
-          <Hero />
-          <Purple />
-          {/* <Route exact path="/" component={Hero} /> */}
-          {/* <Footer /> */}
-        </Fragment>
-      </HashRouter>
-    );
-  }
+export default function App() {
+  return (
+    <HashRouter>
+      <Fragment>
+        <Menu />
+        <Hero />
+        <Purple />
+        <Black />
+        <Gray />
+        <PurpleTwo />
+        <Partners />
+        <Clients />
+        <Footer />
+      </Fragment>
+    </HashRouter>
+  );
 }

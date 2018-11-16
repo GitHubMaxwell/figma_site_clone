@@ -12,7 +12,9 @@ export default function Hero() {
         <button>Try Figma for Free</button>
         <p>Available online; on Windows, Mac or Linux</p>
       </div>
-      <img src="https://picsum.photos/700/500" alt="hero image" />
+      <div className="img-container">
+        <img src="https://picsum.photos/700/500" alt="hero image" />
+      </div>
     </div>
   );
 }

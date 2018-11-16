@@ -1,10 +1,11 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
+import figma from "../assets/figma_logo.png";
 export default function Menu() {
   return (
     <Fragment>
       <div className="menu-logo">
-        <img src="https://picsum.photos/50/50" alt="menu logo" />
+        <img src={figma} alt="menu logo" />
       </div>
       <nav className="menu-container">
         {/* <svg viewBox="0 0 38 57" className="menu-logo">

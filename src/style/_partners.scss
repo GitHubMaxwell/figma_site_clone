@@ -1,0 +1,22 @@
+.partner-wrapper {
+  display: grid;
+  grid-template-rows: 500px;
+  justify-items: center;
+  align-items: center;
+  background: white;
+
+  .partner-container {
+    display: grid;
+    grid-template-columns: 600px;
+    justify-items: center;
+    // grid-auto-rows: auto;
+    color: black;
+    p {
+      text-align: center;
+      padding: 50px 0;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+}

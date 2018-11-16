@@ -1,0 +1,29 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(150px, 1fr));
+  //   justify-content: space-between;
+  background: white;
+  color: black;
+  padding: 30px 30px 160px 30px;
+  .footer__list {
+    list-style: none;
+  }
+  li {
+    cursor: pointer;
+    transition: 150ms;
+    line-height: 2em;
+    &:hover {
+      color: #3bc3fc;
+    }
+  }
+  .footer__list__header {
+    cursor: default;
+    font-weight: bold;
+    &:hover {
+      color: black;
+    }
+  }
+  .footer__list__header__logo {
+    font-size: 30px;
+  }
+}
