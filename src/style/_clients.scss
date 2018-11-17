@@ -1,24 +1,21 @@
-.client-wrapper {
+.client-container {
   display: grid;
-  grid-template-rows: 300px;
   justify-items: center;
-  align-items: start;
   background: white;
-
-  .client-container {
-    display: grid;
-    grid-template-columns: 600px;
-    justify-items: center;
+  padding-bottom: 160px;
+  h2 {
+    padding-bottom: 50px;
     color: black;
-    h2 {
-      padding-bottom: 50px;
-    }
+  }
+  .logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1024px;
+    padding: 0 48px;
     img {
-      max-height: 42px;
+      height: 62px;
+      padding: 0 20px 20px 20px;
     }
-    // .logo-container {
-    //   display: grid;
-    //   justify-items: center;
-    // }
   }
 }

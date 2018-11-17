@@ -11,21 +11,19 @@ import Uber from "../assets/logos/uber.png";
 import Upthere from "../assets/logos/upthere_logo.png";
 export default function Clients() {
   return (
-    <div className="client-wrapper">
-      <div className="client-container">
-        <h2>You're in Good Company</h2>
-        <div className="logo-container">
-          <img src={Medium} alt="picture" />
-          <img src={Microsoft} alt="picture" />
-          <img src={Slack} alt="picture" />
-          <img src={Uber} alt="picture" />
-          <img src={Pivotal} alt="picture" />
-          <img src={Looker} alt="picture" />
-          <img src={ClassPass} alt="picture" />
-          <img src={Upthere} alt="picture" />
-          <img src={Gusto} alt="picture" />
-          <img src={BrainTree} alt="picture" />
-        </div>
+    <div className="client-container">
+      <h2>You're in Good Company</h2>
+      <div className="logo-container">
+        <img src={Medium} alt="picture" />
+        <img src={Microsoft} alt="picture" />
+        <img src={Slack} alt="picture" />
+        <img src={Uber} alt="picture" />
+        <img src={Pivotal} alt="picture" />
+        <img src={Looker} alt="picture" />
+        <img src={ClassPass} alt="picture" />
+        <img src={Upthere} alt="picture" />
+        <img src={Gusto} alt="picture" />
+        <img src={BrainTree} alt="picture" />
       </div>
     </div>
   );

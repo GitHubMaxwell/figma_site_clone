@@ -21,7 +21,7 @@ export default function Hero() {
           // width="757"
           // height="559"
           width="848"
-          height="636"
+          max-height="636"
         />
       </div>
     </div>
