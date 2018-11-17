@@ -1,11 +1,8 @@
 @import "_config";
 @import "_menu";
 @import "_hero";
-@import "_purple";
+@import "_feature_blade";
 @import "_footer";
-@import "_black";
-@import "_gray";
-@import "_purpletwo";
 @import "partners";
 @import "clients";
 
@@ -16,13 +13,12 @@
 }
 
 body {
-  // @include background;
   background: $primary-color;
   color: set-text-color($primary-color);
-  // height: 100%;
-  font-size: 1em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  // line-height: 1.5;
+  font-size: 0.9em;
+  font-family: "Avenir", sans-serif;
+  letter-spacing: 0.1ch;
+  font-weight: 100;
   margin: 0;
   overflow-x: hidden;
 }
@@ -32,20 +28,14 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400;
-  &.lg-heading {
-    font-size: 1.5rem;
-    // margin-bottom: 2rem;
-  }
-  // &.sm-heading {
-  // margin-bottom: 2rem;
-  // padding: 0.2rem 1rem;
-  // background: rgba(lighten($primary-color, 2), 0.5);
-  // }
 }
+// p {
+
+// }
+
 a {
   color: $text-color;
   text-decoration: none;
 }
 
 @import "_layout";
-// move this down to the bottom because we want these media queries to run AFTER everything has loaded (optimal?)

@@ -13,7 +13,16 @@ export default function Hero() {
         <p>Available online; on Windows, Mac or Linux</p>
       </div>
       <div className="img-container">
-        <img src="https://picsum.photos/700/500" alt="hero image" />
+        {/* <img src="https://picsum.photos/700/500" alt="hero image" /> */}
+        <iframe
+          title="video"
+          src="https://player.vimeo.com/video/226476673?background=1"
+          data-ready="true"
+          // width="757"
+          // height="559"
+          width="848"
+          max-height="636"
+        />
       </div>
     </div>
   );

@@ -3,12 +3,10 @@ $cta-main: #3ec28f;
 $cta-hover: #24a16e;
 $text-color: #fff;
 $secondary-color: yellow;
-$show-home-image: true;
-$home-image-url: url("../assets/background.jpg");
-// $figma-logo: url("")
 $background-opacity: 0.9;
+$blade-height: 800px;
 
-// Set text color dynmaically
+// Set text color dynamically
 
 @function set-text-color($color) {
   @if (lightness($color) > 40) {
@@ -47,19 +45,19 @@ $background-opacity: 0.9;
     @content;
   }
 }
-@mixin mediaMd {
-  @media screen and (max-width: 768px) {
+@mixin mediaRg {
+  @media screen and (min-width: 501px) {
     @content;
   }
 }
-@mixin mediaLg {
-  // @media screen and (max-width: 1170px) {
-  @media screen and (min-width: 769px) and (max-width: 1170px) {
-    @content;
-  }
-}
-@mixin mediaXl {
-  @media screen and (min-width: 1171px) {
-    @content;
-  }
-}
+
+// @mixin mediaLg {
+//   @media screen and (min-width: 769px) and (max-width: 1170px) {
+//     @content;
+//   }
+// }
+// @mixin mediaXl {
+//   @media screen and (min-width: 1171px) {
+//     @content;
+//   }
+// }
